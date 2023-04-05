@@ -2,7 +2,7 @@
     <div class="container d-flex justify-content-center">
         <div>
         <h1 style="color: grey;">TIC TAC TOE</h1>
-      <h2 v-if="winner">winner : {{ winner }} 🥳</h2>
+      <h2 v-if="winner">winner : {{ winner }} YaY Congratualtions 🥳</h2>
       <h2 v-else >Players Move : {{ player }}</h2>
       <button @click="reset" class="btn btn-success mb-3 ">Reset</button>
       <div v-for="x in 3" :key="x" class="row" >
